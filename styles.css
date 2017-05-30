@@ -1,9 +1,22 @@
 body {
-  background-color: cyan;
+  background-color: purple;
 }
 
 h1, p {
   color: white;
-  background-color: black;
+  background-color: darkgray;
   text-align: center;
+}
+
+div {
+  margin: 50px auto;
+  background-color: cyan;
+  height: 100px;
+  width: 100px;
+  transition: 3s;
+}
+
+div:hover {
+  transform: rotate(1080deg);
+  border-radius: 100%;
 }
